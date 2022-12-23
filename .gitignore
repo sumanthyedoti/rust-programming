@@ -1,0 +1,8 @@
+# ignore all files and folders
+*
+# unignore all folders
+!/**/
+# ignore all target folders
+**/target
+# unignore files with extensins
+!*.*
