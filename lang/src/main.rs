@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, ignore this. Start with 'hello.rs'!");
+    println!("Hello, ignore this. Start with 'hello.rs'!")
 }

@@ -12,6 +12,11 @@ fn main() {
     annotate(String::from("formate"));
     println!("{} days", 31);
 
+    // the variable name can go inside the curly brackets
+    let x = 5;
+    let y = 10;
+    println!("x = {x} and y + 2 = {}", y + 2);
+
     //Positional arguments
     annotate(String::from("Positional arguments"));
     println!("{0}, this is {1}. {1}, this is {0}", "Alice", "Bob");
