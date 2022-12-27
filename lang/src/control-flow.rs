@@ -93,10 +93,16 @@ fn main() {
     for number in (1..4).rev() {
         println!("{}!", number);
     }
-    /* step by */
+    // step by
     println!("");
     println!("\nStep By");
     for x in (1..10).step_by(3) {
+        println!("{}", x);
+    }
+    // skip
+    println!("");
+    println!("\nSkip");
+    for x in (1..10).skip(6) {
         println!("{}", x);
     }
 }
